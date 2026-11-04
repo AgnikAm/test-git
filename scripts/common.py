@@ -8,7 +8,7 @@ from typing import Any
 
 COMMON_CONFIG: dict[str, Any] = {
     "project_name": "test-git",
-    "debug": False,
+    "debug": True,
     "log_level": "INFO",
     "default_timeout": 3000,
     "allowed_hosts": ["localhost", "127.0.0.1"],
